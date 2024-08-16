@@ -1,0 +1,34 @@
+* { padding: 0; margin: auto; } 
+
+canvas { background: #a8e2d9; 
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 15px; 
+    background-image: url("background_2.jpg"); 
+    background-size: cover;
+} 
+
+
+Body {background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);;
+} /*https://cssgradient.io/ */
+
+
+button{
+  display: inline-block;
+  padding: 1em 2em;
+  background: black;
+  color: white;
+  border-radius: 2em;
+  border:none;
+  outline: 2px solid black;
+  outline-offset: 3px;
+}       
+   
+
+div{
+    width: 50vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
