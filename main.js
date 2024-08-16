@@ -43,7 +43,7 @@
     var brickOffsetLeft = (canvas.width - ((brickWidth + brickPadding) * brickColumnaCount - brickPadding)) / 2;
 
     var score = 0;
-    var lives = 1;
+    var lives = 3;
     var bricks = [];
     var brickColor = ["red", "green", "white", "orange", "yellow", "purple", "pink", "gray"];
 
@@ -67,7 +67,7 @@
     document.addEventListener("keydown", keyDownHandler, false);
     document.addEventListener("keyup", keyUpHandler, false);
     // obtenemos el evento del mouse y lo pasamos a una funcion
-    //document.addEventListener("mousemove", mouseMoveHandler, false);
+    document.addEventListener("mousemove", mouseMoveHandler, false);
 
     
 
